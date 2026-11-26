@@ -1,0 +1,91 @@
+/* ---------- Base ---------- */
+body {
+  background-color: #e1f0e6;
+  font-family: 'Newsreader', serif;
+  color: #4f5775;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 32px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 22px;
+  color: #7ed09a;
+}
+
+a {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #6c6bdc;
+}
+
+/* ---------- Layout ---------- */
+.container {
+  width: 700px;      /* set the width of the container */
+  margin: 40px auto; /* top/bottom: 40px; left/right: automatic */
+}
+
+/* ---------- Reusable classes ---------- */
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+.card-white:hover {
+  border: 1px solid #6c6bdc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- Button-style link ---------- */
+.btn-purple {
+  display: inline-block;
+  background-color: #6c6bdc;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.btn-purple:hover {
+  background-color: #5857c4;
+}
+
+/* ---------- Horizontal list (footer) ---------- */
+.list-inline {
+  list-style: none;   /* kill the bullet points */
+  padding-left: 0px;  /* kill remaining padding left */
+  margin: 0;
+}
+
+.list-inline > li {
+  display: inline;    /* change list item behavior to inline */
+  padding: 0px 20px;  /* add some left/right padding between items */
+}
+
+/* ---------- Social icons (footer) ---------- */
+.icon-box {
+  display:
